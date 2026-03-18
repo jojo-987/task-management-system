@@ -22,7 +22,7 @@ public partial class TaskManagementSystemDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 
-        => optionsBuilder.UseSqlServer(" Server=1R-40;Database = TaskManagementSystemDb;Trusted_Connection=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=db;Database=TaskManagementSystemDb;User Id=sa;Password=Admin@123;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -19,4 +19,14 @@ app.UseHttpsRedirection();
 
 
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<Application.Infrastructure.Data.TaskManagementSystemDbContext>();
+    // This creates the database and all tables defined in your DbContext
+    context.Database.EnsureCreated(); 
+}
+
+
 app.Run();
