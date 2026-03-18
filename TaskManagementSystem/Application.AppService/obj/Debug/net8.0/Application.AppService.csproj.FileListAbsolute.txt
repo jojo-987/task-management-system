@@ -1,0 +1,30 @@
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.AppService.deps.json
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.AppService.dll
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.AppService.pdb
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.Infrastructure.dll
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.Infrastructure.pdb
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.csproj.AssemblyReference.cache
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.AssemblyInfoInputs.cache
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.AssemblyInfo.cs
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.csproj.CoreCompileInputs.cache
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Applicat.681A8657.Up2Date
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.dll
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\refint\Application.AppService.dll
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.pdb
+C:\Users\meksh.patel\Desktop\DemoGit\interns-dotnet-2026\WebApi\Assessment\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\ref\Application.AppService.dll
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.AppService.deps.json
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.AppService.dll
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.AppService.pdb
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.Infrastructure.dll
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\bin\Debug\net8.0\Application.Infrastructure.pdb
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.csproj.AssemblyReference.cache
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.AssemblyInfoInputs.cache
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.AssemblyInfo.cs
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.csproj.CoreCompileInputs.cache
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Applicat.681A8657.Up2Date
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.dll
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\refint\Application.AppService.dll
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\Application.AppService.pdb
+C:\Users\meksh.patel\Desktop\C# Advance\TaskManamager\TaskManagementSystem\Application.AppService\obj\Debug\net8.0\ref\Application.AppService.dll
