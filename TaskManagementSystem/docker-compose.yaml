@@ -1,0 +1,21 @@
+services:
+   db:
+     image: mcr.microsoft.com/mssql/server:2025-latest
+     volumes:
+       - sql-server1:/var/opt/mssql
+     environment:
+       ACCEPT_EULA: Y
+       MSSQL_SA_PASSWORD: Admin@123
+     ports:
+       - "1433:1433"
+
+   task-management-system:
+     image: task-management-system:v2
+     ports:
+       - "3000:8080"
+     depends_on:
+       - db
+
+volumes:
+    sql-server1:
+      external: true

@@ -1,0 +1,10 @@
+[bB]in/
+[Oo]bj/
+.vscode/
+.vs/
+*.db
+*.log
+Dockerfile
+.git
+.env
+
