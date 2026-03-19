@@ -9,12 +9,18 @@ services:
      ports:
        - "1433:1433"
 
-   task-management-system:
+   task-management-backend:
      image: task-management-system:v2
      ports:
-       - "3000:8080"
+       - "3000:3000"
      depends_on:
        - db
+   task-management-frontend:
+     image: task-management-frontend
+     ports:
+       - "5173:5173"
+     depends_on:
+       - task-management-backend
 
 volumes:
     sql-server1:

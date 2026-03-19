@@ -24,6 +24,10 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 
 WORKDIR /app
 
+ENV ASPNETCORE_HTTP_PORTS=3000
+
 COPY --from=publish /app/publish .
+
+EXPOSE 3000
 
 ENTRYPOINT ["dotnet","Application.Api.dll"]
