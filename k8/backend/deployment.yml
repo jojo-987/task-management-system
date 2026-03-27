@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment 
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: task-management-backend
+  template:
+    metadata:
+      name: backend-pod
+      labels:
+        app: task-management-backend
+        tier: web
+    spec:
+      containers:
+        - name: backend-container
+          image: krishp234/task-managemnt-backend:latest
+          ports:
+            - containerPort: 3000

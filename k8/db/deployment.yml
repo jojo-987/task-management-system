@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sql-server-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: db
+  template:
+    metadata:
+      name: db-pod
+      labels:
+        app: db
+        tier: web
+    spec:
+      containers:
+        - name: db-container
+          image: mcr.microsoft.com/mssql/server:2025-latest
+          env:
+            - name: ACCEPT_EULA
+              value: "Y"
+            - name: MSSQL_SA_PASSWORD
+              value: "Admin@123"
+          ports:
+            - containerPort: 1433
+          volumeMounts:
+            - mountPath: /var/opt/mssql
+              name: sql-server1
+      volumes:
+        - name: sql-server1
+          emptyDir: {}
