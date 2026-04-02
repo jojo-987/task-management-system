@@ -8,9 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReactApp", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
-        policy.WithOrigins("http://localhost:5173") // Your React URL
+        policy.AllowAnyOrigin() // Your React URL
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -18,8 +18,7 @@ builder.Services.AddCors(options =>
 
 builder.AddStartUpService();
 var app = builder.Build();
-app.UseCors("AllowReactApp");
-
+app.UseCors("AllowAll");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -27,7 +26,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 app.MapControllers();
 
 using (var scope = app.Services.CreateScope())

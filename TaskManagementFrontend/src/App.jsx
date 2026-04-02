@@ -7,7 +7,7 @@ const App = () => {
   const [email, setEmail] = useState('');
 
   useEffect(() => {
-    axios.get('http://task-management-backend:3000/api/user')
+    axios.get('http://localhost:3000/api/user')
       .then(response => {
         setUsers(response.data);
       })
@@ -21,7 +21,7 @@ const App = () => {
 
     const newUser = { userName, email };
 
-    axios.post('http://task-management-backend:3000/api/user', newUser)
+    axios.post('http://localhost:3000/api/user', newUser)
       .then(response => {
         console.log('Success:', response.data);
         alert('User added!');

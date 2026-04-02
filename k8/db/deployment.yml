@@ -21,7 +21,10 @@ spec:
             - name: ACCEPT_EULA
               value: "Y"
             - name: MSSQL_SA_PASSWORD
-              value: "Admin@123"
+              valueFrom:
+                secretKeyRef:
+                  name: sql-server-secret
+                  key: mssql-sa-password
           ports:
             - containerPort: 1433
           volumeMounts:
