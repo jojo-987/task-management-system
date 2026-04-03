@@ -2,7 +2,7 @@ services:
    db:
      image: mcr.microsoft.com/mssql/server:2025-latest
      volumes:
-       - sql-server1:/var/opt/mssql
+       - taskmanagementsystem_sql-server1:/var/opt/mssql
      environment:
        ACCEPT_EULA: Y
        MSSQL_SA_PASSWORD: Admin@123
@@ -10,18 +10,20 @@ services:
        - "1433:1433"
 
    task-management-backend:
-     image: task-management-system:v2
+     image: krishp234/task-management-backend
      ports:
        - "3000:3000"
+     environment:
+       ConnectionStrings__DefaultConnection: Server=db;Database=TaskManagementSystemDb;User Id=sa;Password=Admin@123;TrustServerCertificate=True;Encrypt=False;
      depends_on:
        - db
    task-management-frontend:
-     image: task-management-frontend
+     image: krishp234/task-management-frontend
      ports:
        - "5173:5173"
      depends_on:
        - task-management-backend
 
 volumes:
-    sql-server1:
-      external: true
+  taskmanagementsystem_sql-server1:
+    external: true

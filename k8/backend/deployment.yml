@@ -21,4 +21,8 @@ spec:
             - containerPort: 3000
           env:
             - name: ConnectionStrings__DefaultConnection
-              value: Server=db;Database=TaskManagementSystemDb;User Id=sa;Password=Admin@123;TrustServerCertificate=True;Encrypt=False; 
+              valueFrom:
+                configMapKeyRef:
+                  name: sql-configmap
+                  key: db_url
+                  
